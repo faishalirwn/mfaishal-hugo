@@ -1,8 +1,11 @@
 <footer class="footer">
-  <div class="footer__inner">
+  <div class="footer__inner {{ if .IsHome }}footer__home{{ end }}">
     {{ if $.Site.Copyright }}
       <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
     {{else}}
+      {{ if not .IsHome }}
+        {{ partial "logo.html" . }}
+      {{ end }}
       <div class="copyright">
         <span>© {{ now.Year }} Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
         <span>Theme by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
