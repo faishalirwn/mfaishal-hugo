@@ -7,7 +7,7 @@ paginate = 5
 [params]
   
   subtitle = "mfaishal.com"
-  homeSubtitle = "CS Student"
+  homeSubtitle = "A CS Student"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # "light" or "dark"
@@ -57,10 +57,12 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "arhive"
+        name = "Archive"
+        url = "/archive"
+        weight = 1
+      [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        weight = 2      
