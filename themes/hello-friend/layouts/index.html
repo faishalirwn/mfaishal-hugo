@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <main class="intro-container" aria-role="main">
+    <div>
+        <h1 class="intro">Hello, I'm {{with .Site.Title }}{{ . }}{{ end }}</h1>
+
+        {{- with .Site.Params.homeSubtitle }}
+            <p class="sub-intro">{{.}}</p>
+        {{- end }}
+
+        {{- with .Site.Params.social }}
+            <div>
+                {{ partial "social-icons.html" . }}
+            </div>
+        {{- end }}
+    </div>
+  </main>
+{{ end }}

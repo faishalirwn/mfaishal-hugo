@@ -1,9 +1,13 @@
 baseurl = "/"
+title = "Faishal Irawan"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
 
 [params]
+  
+  subtitle = "mfaishal.com"
+  homeSubtitle = "CS Student"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # "light" or "dark"
@@ -13,9 +17,24 @@ paginate = 5
   # Show reading time in minutes for posts
   showReadingTime = false
 
+  [[params.social]]
+    name = "facebook"
+    url = "https://www.facebook.com/mfaishal19"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/mfaishal19"
+  [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/mfaishal___"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/mfaishal19"
+  [[params.social]]
+    name = "email"
+    url = "mailto:muhammadfaishal193@gmail.com"
+
 [languages]
   [languages.en]
-    subtitle = "mfaishal.com"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -25,11 +44,11 @@ paginate = 5
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+    dateFormatSingle = "02-01-2006"
+    dateFormatList = "02-01-2006"
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "mfaishal.com"
       logoHomeLink = "/"
     # or
     #
