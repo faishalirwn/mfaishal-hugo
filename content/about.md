@@ -1,11 +1,11 @@
 +++
 title = "About"
-date = "2019-01-25"
+date = "2019-06-21"
 author = "Faishal"
 +++
 
 ## Hi there
 
-My name is Faishal and below is a dummy text.
+My name is Faishal, people call me Isal sometimes Ical, I'm from Indonesia. Currently (21 June 2019) I am a high school graduate, few months from now I'm going to attend to <TBA> University pursuing CS.
 
-彼は、詩人ではなくて小説家だ。 ７月には七夕がある。 「僕は、僕の願い事について考えていたのだ」小さい黒いウサギがいいました。 ８ギガバイトのハードディスクがあれば十分だと思います。 日本には美しい都市が多い。例えば京都、奈良だ。 いい誕生日を迎えられますように。 いよいよという時に言葉が出ない。 いまだかつて偉大なもので熱烈な精神なくして成し遂げられたものは何もない。 いまはもうこの種のちょうは絶えてしまっている。 インチキなセールスマンにだまされて、役立たずの機械を買わされたとジョンは主張した。
+Noice.
