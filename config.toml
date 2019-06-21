@@ -9,7 +9,7 @@ disqusShortname = "mfaishal"
 [params]
   
   subtitle = "mfaishal.com"
-  homeSubtitle = "A CS Student"
+  homeSubtitle = "I make website"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # "light" or "dark"
