@@ -9,7 +9,7 @@ disqusShortname = "mfaishal"
 [params]
   
   subtitle = "mfaishal.com"
-  homeSubtitle = "I make website"
+  homeSubtitle = "A CS student located in Bandung, Indonesia"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # "light" or "dark"
@@ -59,10 +59,10 @@ disqusShortname = "mfaishal"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-          identifier = "showcase"
-          name = "Showcase"
-          url = "/showcase"
-          weight = 1
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "archive"
         name = "Archive"
