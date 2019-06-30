@@ -4,7 +4,7 @@ type = "showcase"
 layout = "list"
 
 [[items]]
-  demoURL = ""
+  demoURL = "https://github.com/faishalirwn/hatsukoisubs"
   cover = "img/hatsukoisubs.png"
   title = "Hatsukoisubs"
   subtitle = "Indonesian Anime Fansub"
