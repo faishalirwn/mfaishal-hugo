@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<div class="archive">
+  <h1>{{ .Title }}</h1>
+  <div class="sc-grid">
+    {{ range .Params.items }}
+    <div class="sc-item">      
+      <a href="{{ .demoURL }}">
+        <img class="sc-item-image" src="{{ .cover | absURL }}" alt="{{ .title }}">
+      </a>
+      <a href="{{ .demoURL }}"><h2>{{ .title }}</h2></a>
+      <p>{{ .subtitle }}</p>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

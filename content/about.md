@@ -1,7 +1,5 @@
 +++
 title = "About"
-date = "2019-06-21"
-author = "Faishal"
 +++
 
 ## Hi there
